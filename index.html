@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Olaide - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            width: 100vw;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        header {
+            background: url('images/pic01.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 40px 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .project h3 {
+            font-size: 18px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .project p {
+            font-size: 14px;
+            color: #555;
+        }
+        .project .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .project .btn:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="image main"><img src="./images/OLA.jpg" alt="Yusuf Olaide" class="profile-img" /></a>
+        <h1>Yusuf Olaide</h1>
+        <p>Data Analyst | BSc Physics (Second Class Upper)</p>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I am a data analyst with a solid foundation in data manipulation, data visualization, and business intelligence, I leverage advanced tools such as Microsoft Excel, SQL, Power BI, and Python to drive data-driven decision-making and business performance. With a background in quality control and process analysis, I excel at transforming complex datasets into clear, actionable insights that inform strategic planning and operational improvements.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>SQL:</strong> SELECT queries, JOINs, Aggregation functions, Window functions, CTEs, Subqueries</li>
+                <li><strong>Excel:</strong> Lookup functions, Logical functions,VBA and Macros, Data validation, Data cleaning, Pivot tables, Charts</li>
+                <li><strong>Power BI:</strong> Power Query, Data modeling, DAX, Interactive dashboards, Data visualization</li>
+                <li><strong>Python:</strong> Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook</li>
+                <li><strong>Other Tools:</strong> Tableau, MS PowerPoint, MS Word, Generative AI</li>
+                <li><strong>Soft Skills:</strong> Stakeholder Management, Communication, Presentation skills, Critical Thinking, Problem Solving, Data Storytelling, Report Writing, Analytical Thinking</li>
+            </ul>
+            <h3>Projects</h3>
+            <div class="projects">
+                <div class="project">
+                    <h3>HR Attrition Analysis</h3>
+                    <a href="#" class="image main"><img src="./images/HR.jpg" alt="HR Attrition Analysis" /></a>
+                    <p>Analyzed employee attrition factors using data insights.</p>
+                    <a href="https://github.com/AnalystOlaide/HR-Attrition-Analysis" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Hospital Patient Record Analysis</h3>
+                    <a href="#" class="image main"><img src="images/health.jpg" alt="Hospital Patient Record Analysis" /></a>
+                    <p>Analyzed hospital patient records for trends and insights.</p>
+                    <a href="https://github.com/AnalystOlaide/Hospital-Patient-Record-Analysis" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Energy Consumption Analysis</h3>
+                    <a href="#" class="image main"><img src="images/energy.jpg" alt="Energy Consumption Analysis" /></a>
+                    <p>Investigated energy consumption trends using data.</p>
+                    <a href="https://github.com/AnalystOlaide/Energy-Consumption-Analysis" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Manufacturing Downtime Analysis</h3>
+                    <a href="#" class="image main"><img src="images/Manufacturing.jpg" alt="Manufacturing Production Downtime Analysis" /></a>
+                    <p>Identified downtime causes in a soda bottling line.</p>
+                    <a href="https://github.com/AnalystOlaide/Manufacturing-Production-Downtime-Analysis-for-a-Soda-Bottling-Line" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Bank Loan Defaults Analysis</h3>
+                    <a href="#" class="image main"><img src="images/finance.jpg" alt="Bank Loan Defaults Analysis" /></a>
+                    <p>Predicted loan defaults using historical banking data.</p>
+                    <a href="https://github.com/AnalystOlaide/Bank-Loan-Defaults-Analysis" class="btn" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div>
+                <h3>Contact Information</h3>
+            <p>Email: barokaholayide@gmail.com</p>
+            <p>Phone: 07076613852</p>
+            <p>Resume: <a href="https://drive.google.com/file/d/19VAY68NsT_jKqs2g8tAaldqtkN1JFGg2/view?usp=sharing" target="_blank">View Resume</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yusufolaide" target="_blank">www.linkedin.com/in/yusufolaide</a></p>
+            <p>Github Link: <a href="https://github.com/AnalystOlaide " target="_blank">https://github.com/AnalystOlaide </a></p>
+            <p>Medium Blog : <a href="https://medium.com/@barokaholayide/how-to-monetize-your-technical-skills-769b4f0e254f" target="_blank">Link </a></p>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
